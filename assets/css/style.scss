@@ -1,0 +1,27 @@
+---
+---
+
+@import "main";
+
+body[data-theme="dark"] {
+  svg {
+    fill: #eaeaea;
+  }
+}
+
+body[data-theme="light"] {
+  svg {
+    fill: #0d122b;
+  }
+}
+
+#banana {
+  position: fixed;
+  top: 0;
+  z-index: -1;
+  background: none;
+  border: none;
+  left: 50%;
+  transform: translateX(-50%);
+  color: transparent;
+}

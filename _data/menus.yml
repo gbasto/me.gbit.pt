@@ -1,0 +1,7 @@
+- title: home
+  url: /
+  external: false
+
+- title: posts
+  url: /archive/
+  external: false

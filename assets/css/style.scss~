@@ -1,0 +1,16 @@
+---
+---
+
+@import "main";
+
+body[data-theme="dark"] {
+  svg {
+    fill: #eaeaea
+  }
+}
+
+body[data-theme="dark"] {
+  svg {
+    fill: #0d122b
+  }
+}
