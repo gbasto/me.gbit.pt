@@ -4,6 +4,7 @@ date: 2023-06-29 11:58:47 +00:00
 modified: 2023-06-29 11:58:47 +00:00
 tags: [public-disclosure, security]
 description: Thousands of people who used Madeira Safe free COVID tests had their personal information exposed. That information included full name and address, contacts, legal IDs, flight tickets and staying details.
+image: "/assets/img/madeira-not-so-safe/madeira-not-so-safe-preview.png"
 ---
 
 # TL;DR
