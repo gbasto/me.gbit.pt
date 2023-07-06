@@ -43,7 +43,7 @@ Although only the test date and result was shown in the page, the request would 
 - Place of staying in Madeira
 - Copy of the flight tickets
 
-That was not good. Exposing so much information was bad but it wouldn’t be so bad if it were behind an unpredictable token, so I grabbed my result code and incremented it by one. My worst fear came true when someone else’s data was returned. I incremented again by one and the same person’s data was returned. I repeated this multiple times and finally another person’s data was returned. What I found was that every X increments, a new person’s data was returned, and all the other codes returned the same person, behaving like a default in case a certain code was not found.
+That was not good. Exposing so much information was bad but it wouldn’t be so bad if it was behind an unpredictable token, so I grabbed my result code and incremented it by one. My worst fear came true when someone else’s data was returned. I incremented again by one and the same person’s data was returned. I repeated this multiple times and finally another person’s data was returned. What I found was that every X increments, a new person’s data was returned, and all the other codes returned the same person, behaving like a default in case a certain code was not found.
 
 It took me around 30 minutes to take my COVID test and during that time period I saw about 50 people that followed the same process and application waiting to be tested as well, so I guess the number of people could be some hundreds every day. Given that same process and application have been in place for months at that time being, this means that **someone could easily iterate the test ID code and collect tens or hundreds of thousand people's personal information**.
 
